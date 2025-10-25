@@ -36,11 +36,11 @@ Repositorio remoto = dónde el git/github guardan este repositorio que es al que
      - 3º PLAN A. Si tanto esa carpeta como las subcarpetas están en español, o si tu carpeta de Mis Creaciones Spore está en inglés pero todas sus subcarpetas están es español, bastará con crear el acceso directo con el nombre de vuestro directorio de creaciones original que apunte al del repositorio (por ejemplo, en mi caso, crearía en "C:/Users/User/Mis Documentos/" un acceso directo llamado "Mis Creaciones Spore" que apuntaría a "C:/Users/User/Desktop/Progreso Spore/SPORE-Saves/Creaciones (de 'Mis documentos')/Mis Creaciones Spore")
      - 3º PLAN B. Si tanto la carpeta como las subcarpetas no están en español, lo que se debe hacer es crear una carpeta con el nombre original y dentro de ella crear accesos directos a sus carpetas equivalentes en español utilizadas por el repositorio (por ejemplo, si mi juego está en inglés y mis creaciones del Spore se guardaban en "C:/Users/User/Documents/Mis Spore Creations" y las naves espaciales se guardan en la carpeta "UFOs", deberé crear la carpeta "My Spore Creations" en "C:/Users/User/Documents/" y en su interior crear un acceso directo llamado "UFOs" que apunte a "C:/Users/User/Desktop/Progreso Spore/SPORE-Saves/Creaciones (de 'Mis documentos')/Mis Creaciones Spore/OVNIs")
 
-4º Elegid el método para jugar (reomendado asignaros unos turnos cada uno).
+4º Elegid el método para jugar (recomendado asignaros unos turnos cada uno).
 
 ### SOBRE MODS: SPORE_EP1/Data/Config/*.package ###
 
-Aquí se indican los cambios que el host tiene (:ribbon: son los paquetes por defecto, :reminder_ribbon: son los mods adicionales):
+Aquí se indican los cambios que el host tiene ( :ribbon: son los paquetes por defecto, :reminder_ribbon: son los mods adicionales):
 - :reminder_ribbon: 1CellEvoadvantage_v1.1.package            <--- Excepción a "no alterar la jugabilidad"
 - :reminder_ribbon: 2019DavoBloodBite.package
 - :reminder_ribbon: 65034-placetribaltoolsanywhere.package    <--- Excepción a "no alterar la jugabilidad"
