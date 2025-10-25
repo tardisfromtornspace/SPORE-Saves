@@ -205,3 +205,6 @@ git push
 ### EN CASO DE ERROR ###
 En caso de error durante la aplicación de cambios, se pueden revertir, pero no lo hagas sin antes consultar al host y avisarle del problema https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things
 
+### SOBRE LA CACHÉ DE GRÁFICOS ###
+El repositorio está configurado para ignorar GraphicsCache.package y GraphicsCache.***.package, que son ficheros eminentemente locales que se autogeneran cuando faltan. Con eso dicho,es posible que haya problemas de caché gráfica, en tal caso, simplemente borras dicha caché de tu carpeta de partidas guardadas de Spore y listo.
+
