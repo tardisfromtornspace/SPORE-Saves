@@ -1,0 +1,40 @@
+### Linux ###
+*~
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Credentials
+.git/credentials
+
+# We need to ignore the GraphicsCache.*.package files
+############
+/AppData/**/GraphicsCache.package
+/AppData/**/GraphicsCache.[0-9][0-9][0-9].package
