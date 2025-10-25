@@ -14,11 +14,11 @@ Repositorio remoto = dónde el git/github guardan este repositorio que es al que
      - Alteraciones de los ficheros SPORE_EP1/Data/Config/ConfigManager.txt y SPORE_EP1/Data/Config/Properties.txt (ver secciones de abajo):
      - Ciertos ficheros .package que no añadan nuevas partes ni alteren en exceso la jugabilidad (salvo excepciones, ver abajo) de tal forma que tampoco afecten al guardado de las partidas.
      - En caso de duda, consultad con el host.
-   - Sobre lenguajes: preferiblemente el español porque las carpetas de creaciones en SPore está ajustada a la carpeta y subcarpetas en Español, pero podéis hacerlo en cualquier otro idioma, solo tendréis que tener cuidado en el paso de enlaces simbólicos.
+   - Sobre lenguajes: preferiblemente el español porque las carpetas de creaciones en Spore está ajustada a la carpeta y subcarpetas en Español, pero podéis hacerlo en cualquier otro idioma, solo tendréis que tener cuidado en el paso de enlaces simbólicos.
 
 2. Clonad este repositorio a nivel local:
    - 1º. Instalad la herramienta "git" en vuestro ordenador en caso de que no la tuvieseis ya (se encarga del control de versiones) https://github.com/git-guides/install-git
-   - 2º. Crearos una carpeta dónde os de la gana, por ejemplo "Progreso Spore" en el Escritorio (ruta "C:/Users/User/Desktop/Progreso Spore"), y abrid esa carpeta
+   - 2º. Crearos una carpeta dónde os dé la gana, por ejemplo "Progreso Spore" en el Escritorio (en mi caso, ruta "C:/Users/User/Desktop/Progreso Spore"), y abrid esa carpeta
    - 3º. Abrid la terminal, símbolo de sistema o equivalente (por ejemplo en Windows, la Git Bash) y ejecutad el comando de descarga del repositorio (por ejemplo si usáis https puede ser algo como el ejemplo de abajo):
         ```
         git clone https://github.com/tardisfromtornspace/SPORE-Saves.git
@@ -26,12 +26,12 @@ Repositorio remoto = dónde el git/github guardan este repositorio que es al que
    - 4º. Verificad que ahora se ha creado un repositorio SPORE-Saves dentro de la carpeta "Progreso Spore" (o el nombre que hubiérais decidido darle a esa carpeta) con los contenidos de este repositorio.
 
 3. ENLACES SIMBÓLICOS/ACCESOS DIRECTOS:
-   - A vuestro directorio de guardado de partidas de Spore
-     - 1º Id a dónde estaría vuestra carpeta de guardado de Spore, dónde se localizan vuestros archivos de Pollination.package y todo eso (en mi caso C:/Users/User/AppData/Roaming/Spore)
+   - En vuestro directorio de guardado de partidas de Spore
+     - 1º Id a donde estaría vuestra carpeta de guardado de Spore, donde se localizan vuestros archivos de Pollination.package y todo eso (en mi caso C:/Users/User/AppData/Roaming/Spore)
      - 2º Renombrad dicha carpeta de guardado para evitar sobreescrituras (en caso de que algo fuera mal o quiesiérais dejar de jugar). Por ejemplo en mi caso renombraría la carpeta "Spore" de "C:/Users/User/AppData/Roaming/" a "SporeBACKUP".
-     - 3º Donde antes estaba vuestro directorio de guardado de Spore, ahora creareis un acceso directo con ese mismo nombre que apunte a la carpeta de Spore del Repositorio que os habéis descargado (por ejemplo, si mi antiguo guardado estaba en "C:/Users/User/AppData/Roaming/Spore", y mi respositorio local está en "C:/Users/User/Desktop/Progreso Spore" entonces crearía un acceso directo en "C:/Users/User/AppData/Roaming/", lo llamaría "Spore" y apuntaría a "C:/Users/User/Desktop/Progreso Spore/SPORE-Saves/AppData/Roaming/Spore".
-   - A vuestro directorio de "Mis Creaciones Spore" / "My Spore Creations".
-     - 1º Id a dónde se almacenan vuestras creaciones en Spore (en mi caso, "C:/Users/User/Mis Documentos/Mis Creaciones Spore")
+     - 3º Donde antes estaba vuestro directorio de guardado de Spore, ahora creareis un acceso directo con ese mismo nombre que apunte a la carpeta de Spore del repositorio local que os habéis descargado (por ejemplo, si mi antiguo guardado estaba en "C:/Users/User/AppData/Roaming/Spore", y mi repositorio local está en "C:/Users/User/Desktop/Progreso Spore" entonces crearía un acceso directo en "C:/Users/User/AppData/Roaming/", lo llamaría "Spore" y apuntaría a "C:/Users/User/Desktop/Progreso Spore/SPORE-Saves/AppData/Roaming/Spore".
+   - En vuestro directorio de "Mis Creaciones Spore" / "My Spore Creations".
+     - 1º Id a donde se almacenan vuestras creaciones en Spore (en mi caso, "C:/Users/User/Mis Documentos/Mis Creaciones Spore")
      - 2º Ahora comprobaréis si dicha carpeta está en un lenguaje distinto al español; también deberéis verificar si es solo la carpeta superior la que tiene otro nombre (por ejemplo, "My Spore Creations") o si además las subcarpetas están en otro idioma (con las subcarpetas con cosas cosas como "UFOs", "Creatures", etc.). Renombráis esa carpeta en caso de que algo vaya mal.
      - 3º PLAN A. Si tanto esa carpeta como las subcarpetas están en español, o si tu carpeta de Mis Creaciones Spore está en inglés pero todas sus subcarpetas están es español, bastará con crear el acceso directo con el nombre de vuestro directorio de creaciones original que apunte al del repositorio (por ejemplo, en mi caso, crearía en "C:/Users/User/Mis Documentos/" un acceso directo llamado "Mis Creaciones Spore" que apuntaría a "C:/Users/User/Desktop/Progreso Spore/SPORE-Saves/Creaciones (de 'Mis documentos')/Mis Creaciones Spore")
      - 3º PLAN B. Si tanto la carpeta como las subcarpetas no están en español, lo que se debe hacer es crear una carpeta con el nombre original y dentro de ella crear accesos directos a sus carpetas equivalentes en español utilizadas por el repositorio (por ejemplo, si mi juego está en inglés y mis creaciones del Spore se guardaban en "C:/Users/User/Documents/Mis Spore Creations" y las naves espaciales se guardan en la carpeta "UFOs", deberé crear la carpeta "My Spore Creations" en "C:/Users/User/Documents/" y en su interior crear un acceso directo llamado "UFOs" que apunte a "C:/Users/User/Desktop/Progreso Spore/SPORE-Saves/Creaciones (de 'Mis documentos')/Mis Creaciones Spore/OVNIs")
@@ -40,26 +40,26 @@ Repositorio remoto = dónde el git/github guardan este repositorio que es al que
 
 ### SOBRE MODS: SPORE_EP1/Data/Config/*.package ###
 
-Aquí se indican los cambios que el host tiene (`#ffffff` son los paquetes por defecto, `#00ff00` son los mods adicionales):
-- `#00ff00`1CellEvoadvantage_v1.1.package            <--- Excepción a "no alterar la jugabilidad"
-- `#00ff00`2019DavoBloodBite.package
-- `#00ff00`65034-placetribaltoolsanywhere.package    <--- Excepción a "no alterar la jugabilidad"
-- `#00ff00`AnimationMod.package
-- `#00ff00`DanceAnimations2.package
-- `#00ff00`DanceAnimations3.package
-- `#00ff00`DCityWalls.package                        <--- Excepción a "no alterar la jugabilidad"
-- `#00ff00`Editorbg.package
-- `#ffffff`EP1_PatchData.package
-- `#00ff00`MMDbg.package
-- `#00ff00`MrsWhitesYourInvasion.package             <--- Excepción a "no alterar la jugabilidad"
-- `#00ff00`Ramone_Kemono.s_2nd_MMD_Drag_Ball.package
-- `#00ff00`Ramone_Kemono.s_MMD_Drag_Ball_SFW.package
-- `#00ff00`SG.s_UserCellAdder.package                <--- Excepción a "no alterar la jugabilidad"
-- `#00ff00`Spore2005_BetaFaces.package
-- `#ffffff`Spore_EP1_Content_01.package
-- `#ffffff`Spore_EP1_Content_02.package
-- `#ffffff`Spore_EP1_Data.package
-- `#ffffff`Spore_EP1_Locale_01.package
+Aquí se indican los cambios que el host tiene (:ribbon: son los paquetes por defecto, :reminder_ribbon: son los mods adicionales):
+- :reminder_ribbon: 1CellEvoadvantage_v1.1.package            <--- Excepción a "no alterar la jugabilidad"
+- :reminder_ribbon: 2019DavoBloodBite.package
+- :reminder_ribbon: 65034-placetribaltoolsanywhere.package    <--- Excepción a "no alterar la jugabilidad"
+- :reminder_ribbon: AnimationMod.package
+- :reminder_ribbon: DanceAnimations2.package
+- :reminder_ribbon: DanceAnimations3.package
+- :reminder_ribbon: DCityWalls.package                        <--- Excepción a "no alterar la jugabilidad"
+- :reminder_ribbon: Editorbg.package
+- :ribbon: EP1_PatchData.package
+- :reminder_ribbon: MMDbg.package
+- :reminder_ribbon: MrsWhitesYourInvasion.package             <--- Excepción a "no alterar la jugabilidad"
+- :reminder_ribbon: Ramone_Kemono.s_2nd_MMD_Drag_Ball.package
+- :reminder_ribbon: Ramone_Kemono.s_MMD_Drag_Ball_SFW.package
+- :reminder_ribbon: SG.s_UserCellAdder.package                <--- Excepción a "no alterar la jugabilidad"
+- :reminder_ribbon: Spore2005_BetaFaces.package
+- :ribbon: Spore_EP1_Content_01.package
+- :ribbon: Spore_EP1_Content_02.package
+- :ribbon: Spore_EP1_Data.package
+- :ribbon: Spore_EP1_Locale_01.package
 
 
 ### SOBRE MODS: SPORE_EP1/Data/Config/ConfigManager.txt ###
