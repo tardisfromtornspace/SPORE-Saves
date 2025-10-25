@@ -9,7 +9,7 @@ Repositorio remoto = dónde el git/github guardan este repositorio que es al que
 ## PREPARACIÓN ##
 1. Tened el SPORE adecuado:
    - MÍNIMO: En nuestro caso necesitas tener el Spore 1.02 o superior + Aventuras Galácticas 1.0 o superior (Spore + Factoría de Criaturas + Aventuras Galácticas 1.0; o sea, los que te puede actualizar con los CD/DVD sin parches adicionales).
-   - RECOMENDADO: El que usa el host de este repositorio (Spore 1.05.001 + Spore AG 1.10; o sea, tener el Spore 1.05.001 que otorga la asimetría con el botón A, tener la expansión de Factoría de Criaturas, y tener la expansión de Aventuras Galácticas 1.10; o sea, lo que te puede actualizar con los CD/DVD sin parches adicionales, y después ejecutas el isntalador del parche 1.05)
+   - RECOMENDADO: El que usa el host de este repositorio (Spore 1.05.001 + Spore AG 1.10; o sea, tener el Spore 1.05.001 que otorga la asimetría con el botón A, tener la expansión de Factoría de Criaturas, y tener la expansión de Aventuras Galácticas 1.10; o sea, lo que te puede actualizar con los CD/DVD sin parches adicionales, y después ejecutas el instalador del parche 1.05)
    - Sobre mods: solo se tolerarán los siguientes mods:
      - Alteraciones de los ficheros SPORE_EP1/Data/Config/ConfigManager.txt y SPORE_EP1/Data/Config/Properties.txt (ver secciones de abajo):
      - Ciertos ficheros .package que no añadan nuevas partes ni alteren en exceso la jugabilidad (salvo excepciones, ver abajo) de tal forma que tampoco afecten al guardado de las partidas.
