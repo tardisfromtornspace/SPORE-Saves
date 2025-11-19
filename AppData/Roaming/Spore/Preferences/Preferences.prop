@@ -3,7 +3,7 @@ OptionShadows 3
 OptionTextureDetail 3
 OptionEffects 3
 OptionScreenSize 22
-OptionFullScreen 1
+OptionFullScreen 0
 OptionBakeQuality 3
 OptionDiskCacheSize 32
 OptionFitToScreen 0
