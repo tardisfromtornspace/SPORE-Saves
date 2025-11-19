@@ -1,9 +1,8 @@
-PrefsClearGraphicsCache 1
 OptionShadows 3
 OptionTextureDetail 3
 OptionEffects 3
 OptionScreenSize 22
-OptionFullScreen 0
+OptionFullScreen 1
 OptionBakeQuality 3
 OptionDiskCacheSize 32
 OptionFitToScreen 0
