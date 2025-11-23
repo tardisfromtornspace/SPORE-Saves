@@ -50,6 +50,10 @@ Aquí se indican los cambios que el host tiene ( :ribbon: son los paquetes por d
 - :reminder_ribbon: DCityWalls.package                        <--- Excepción a "no alterar la jugabilidad"
 - :reminder_ribbon: Editorbg.package
 - :ribbon: EP1_PatchData.package
+- :reminder_ribbon: !FE_dF2C_FRAGMENTS.package                <--- De nuevo solo para la flora, gaprop
+- :reminder_ribbon: !FE_dF2C_SKINPAINTS.package               <--- Solo usadlo para la flora
+- :reminder_ribbon: !!!FloraEditorRecon.package               <--- Lo tolero, pero siempre poned gaprop a la flora, por favor
+- :reminder_ribbon: !HarvesterEditor.package                  <--- Excepción a "no alterar la jugabilidad"
 - :reminder_ribbon: MMDbg.package
 - :reminder_ribbon: MrsWhitesYourInvasion.package             <--- Excepción a "no alterar la jugabilidad"
 - :reminder_ribbon: Ramone_Kemono.s_2nd_MMD_Drag_Ball.package
